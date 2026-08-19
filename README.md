@@ -12,6 +12,23 @@ The project operates through a complete 3-stage pipeline:
 3. Text-to-Speech (TTS): Converts generated text into natural Arabic audio using edge-tts (`ar-SA-HamedNeural`) and plays it seamlessly.
 
 ---
+Dependencies & Prerequisites
+
+This project requires Python 3.9+ and the following libraries:
+
+* faster-whisper: Fast local Speech-to-Text (STT) transcription.
+* SpeechRecognition: Audio input handling and ambient noise calibration.
+* cohere: Generative AI conversational response generation (LLM).
+* edge-tts: Natural Arabic Text-to-Speech (TTS) synthesis.
+* pygame: Audio playback management.
+* arabic-reshaper & python-bidi: Bi-directional Arabic text reshaping and rendering for the terminal.
+
+One-Click Installation
+
+To install all required packages at once, run:
+
+```bash
+pip install faster-whisper SpeechRecognition cohere edge-tts pygame arabic-reshaper python-bidi
 
 Detailed Code Explanation
 
