@@ -29,7 +29,7 @@ To install all required packages at once, run:
 
 ```bash
 pip install faster-whisper SpeechRecognition cohere edge-tts pygame arabic-reshaper python-bidi
-
+```
 ---
 Detailed Code Explanation
 
